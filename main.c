@@ -1,6 +1,8 @@
 #include <malloc.h>
 #include <stdio.h>
 
+typdef struct Evaluations;
+
 typedef struct {
   char name[40];
   char foodCategory[40];
